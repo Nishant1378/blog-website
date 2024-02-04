@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 import "./post.css"
 const Post = () => {
   return (
@@ -10,7 +11,9 @@ const Post = () => {
             <span className="postCat">Music </span>
             <span className="postCat">Life</span>
         </div>
-        <span className="postTitle">Lorem, ipsum dolor.</span>
+        <span className="postTitle">
+        <Link to="/post/abc" className='link'>Lorem, ipsum dolor.</Link>
+          </span>
         <hr />
         <span className="postDate">1 hour ago</span> 
       </div>
@@ -28,7 +31,7 @@ const Post = () => {
             <span className="postCat">Music </span>
             <span className="postCat">Life</span>
         </div>
-        <span className="postTitle">Lorem, ipsum dolor.</span>
+        <span className="postTitle"><Link to="/post/abc" className='link'>Lorem, ipsum dolor.</Link></span>
         <hr />
         <span className="postDate">1 hour ago</span> 
       </div>
