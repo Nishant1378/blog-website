@@ -7,17 +7,17 @@ const Sidebar = () => {
       <div className="sidebarItem">
          <span className="sidebarTitle">ABOUT ME</span>
          <img src="" alt="" />
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At molestias accusamus eum quo quod ipsam placeat explicabo numquam temporibus, repudiandae architecto odio. Laboriosam assumenda hic expedita animi perferendis, earum recusandae?</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At molestias accusamus eum quo quod ipsam placeat explicabo numquam temporibus, repudiandae architecto odio.</p>
       </div>
       <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>
-        <ul className="sidebarLisst"> 
-          <li className="sidebarListItem2">Life</li>
-          <li className="sidebarListItem2">Music</li>
-          <li className="sidebarListItem2">Style</li>
-          <li className="sidebarListItem2">Sport</li>
-          <li className="sidebarListItem2">Tech</li>
-          <li className="sidebarListItem2">Cinema</li>
+        <ul className="sidebarList"> 
+          <li className="sidebarListItem">Life</li>
+          <li className="sidebarListItem">Music</li>
+          <li className="sidebarListItem">Style</li>
+          <li className="sidebarListItem">Sport</li>
+          <li className="sidebarListItem">Tech</li>
+          <li className="sidebarListItem">Cinema</li>
         </ul>
       </div>
       <div className="sidebarItem">
